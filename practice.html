@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,5 +28,37 @@ git commit -m 'Your commit message here!'
 git status
 git push -u origin main
   </pre>
+
+  <!-- 🌱 NEW SECTION: Chapter 07 - Git Clone & Fork -->
+  <hr>
+  <section id="chapter07">
+    <h2>07. Git Clone & Fork</h2>
+
+    <h3>👯 Working with a Team</h3>
+    <p>GitHub enables multiple people to collaborate using shared repositories. Teams usually follow workflows involving cloning, branching, pushing, and pulling.</p>
+
+    <h3>🔑 Cloning and Permissions</h3>
+    <p>To clone an existing GitHub repository to your machine:</p>
+    <pre>git clone https://github.com/username/repository.git</pre>
+    <p><strong>Permissions:</strong></p>
+    <ul>
+      <li><strong>Read</strong> – View and clone</li>
+      <li><strong>Write</strong> – Edit, push, and branch</li>
+      <li><strong>Admin</strong> – Full control over settings and access</li>
+      <li><strong>Maintainer</strong> – Like Admin (in orgs)</li>
+      <li><strong>Collaborator</strong> – Read and write access</li>
+    </ul>
+
+    <h3>🍴 Forking</h3>
+    <p>If you don’t have write access, you can <strong>fork</strong> the repository. This creates a copy under your GitHub account where you can make changes safely.</p>
+    <p>Use the "Fork" button at the top-right of any repository on GitHub, then:</p>
+    <ol>
+      <li>Keep the same name and description</li>
+      <li>Copy only the <code>main</code> branch</li>
+      <li>Do not add a new README</li>
+    </ol>
+    <p>After forking, use <code>git clone</code> to work on it locally.</p>
+  </section>
+
 </body>
 </html>
